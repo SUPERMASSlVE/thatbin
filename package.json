@@ -1,0 +1,28 @@
+{
+    "name": "thatbin",
+    "version": "1.0.0",
+    "description": "An AI-powered voice assistant application",
+    "main": "pages/index.js",
+    "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+    },
+    "dependencies": {
+    "@google-cloud/speech": "^5.1.0",
+    "@google-cloud/text-to-speech": "^4.0.0",
+    "@google-cloud/vertexai": "^2.0.0",
+    "@next/font": "^13.1.1",
+    "@shadcn/ui": "^0.1.15",
+    "next": "^13.1.1",
+    "papaparse": "^5.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.2.0"
+    },
+    "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+    }
+}
